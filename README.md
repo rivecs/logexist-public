@@ -1,14 +1,14 @@
 # LogExist
 
-I designed LogExist as an offline-first capture tool, with an Android companion for recording and marking moments without needing a connection.
+LogExist is a private, offline-first audio day log with an Android capture companion. Capture can continue on the device without a network connection; the app shows whether it is recording and lets you mark, pause, or resume.
 
-## Build decisions
+## Local first, transfer by choice
 
-I made local use the starting point: capture, mark, pause, or resume on the device, then choose whether to transfer over Wi-Fi. The tool stays quiet until it is needed.
+The recording stays on the device until you choose a Wi-Fi handoff. I made the capture state visible and the transfer a separate action, so the user can tell what is happening and decide when anything moves.
 
-This repository contains project notes and links, not application source.
+This public repository contains project notes and links, not application source.
 
 ## Links
 
 - [LogExist](https://logexist.com)
-- [Portfolio project notes](https://portfolio.aerovisus.com/#logexist)
+- [Portfolio notes](https://portfolio.aerovisus.com/#logexist)
